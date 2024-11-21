@@ -1,0 +1,7 @@
+:root {
+  --yellow: #F9F62A;
+  --teal: #75B9BE;
+  --light-teal: #A8CCC9;
+  --blue: #4C6085;
+  --dark-gray: #32322C;
+}

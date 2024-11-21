@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rubber Duckie Store</title>
+  <style>
+    :root {
+      --yellow: #F9F62A;
+      --teal: #75B9BE;
+      --light-teal: #A8CCC9;
+      --blue: #4C6085;
+      --neutral-gray: #4F4F4F;
+      --orange-web: #FCAB1F;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background-color: var(--light-teal);
+      color: var(--neutral-gray);
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: var(--blue);
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    nav {
+      background-color: var(--blue);
+      color: white;
+      display: flex;
+      justify-content: space-around;
+      padding: 10px;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .banner {
+      background-color: var(--teal);
+      color: white;
+      padding: 40px;
+      text-align: center;
+    }
+
+    .products {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 20px;
+      padding: 20px;
+      background-color: white;
+    }
+
+    .product-card {
+      background-color: var(--light-teal);
+      border: 2px solid var(--teal);
+      border-radius: 8px;
+      padding: 10px;
+      text-align: center;
+    }
+
+    .product-card h3 {
+      color: var(--blue);
+    }
+
+    .product-card button {
+      background-color: var(--yellow);
+      border: none;
+      padding: 10px 20px;
+      color: var(--neutral-gray);
+      font-weight: bold;
+      cursor: pointer;
+    }
+
+    footer {
+      background-color: var(--neutral-gray);
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Rubber Duckie Store</h1>
+    <p>The quirkiest e-commerce for your duckie needs!</p>
+  </header>
+
+  <nav>
+    <a href="#">Home</a>
+    <a href="#">Shop</a>
+    <a href="#">About</a>
+    <a href="#">Contact</a>
+  </nav>
+
+  <div class="banner">
+    <h2>Welcome to the Duck Side!</h2>
+    <p>Quack-tastic deals await you!</p>
+  </div>
+
+  <section class="products">
+    <div class="product-card">
+      <h3>Classic Yellow Duck</h3>
+      <p>$5.99</p>
+      <button>Add to Cart</button>
+    </div>
+    <div class="product-card">
+      <h3>Rubber Duckie Hoodie</h3>
+      <p>$19.99</p>
+      <button>Add to Cart</button>
+    </div>
+    <div class="product-card">
+      <h3>Quirky Duck Keychain</h3>
+      <p>$3.50</p>
+      <button>Add to Cart</button>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2024 Rubber Duckie Store. Quack responsibly!</p>
+  </footer>
+</body>
+</html>
