@@ -62,7 +62,7 @@ header {
     color: var(--yellow);
 }
 
-.hero {
-    position: relative;
-    text-align: center;
+.products-top-img {
+    height: 300px;
+    width: 300px;
 }

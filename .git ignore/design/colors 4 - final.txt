@@ -1,0 +1,8 @@
+:root {
+  --yellow: #F9F62A; /* Playful, key accent */
+  --teal: #75B9BE; /* Background or section dividers */
+  --light-teal: #A8CCC9; /* Softer background sections */
+  --blue: #4C6085; /* Navigation bar and headings */
+  --neutral-gray: #4F4F4F; /* Text and footer backgrounds */
+  --orange-web: #FCAB1F; /* Subtle accent for warmth */
+}
