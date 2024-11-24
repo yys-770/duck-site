@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="contact-style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@600&family=Bubblegum+Sans&family=Poppins:wght@300..700&family=Quicksand:wght@300..700&display=swap"
+        rel="stylesheet">
+    <title>Contact</title>
+</head>
+<body>
+    <header>
+        <div class="logo-container">Logo</div>
+        <nav class="navbar-container">
+            <a href="index.html" class="nav-item">Home</a>
+            <a href="About-us.html" class="nav-item">About Us</a>
+            <a href="products.html" class="nav-item">Products</a>
+            <a href="Contact.html" class="nav-item">Contact</a>
+        </nav>
+    </header>
+    <hr>
+
+    <main class="contact-container">
+        <h1 class="main-header">Quack At Us</h1>
+        <p class="sub-text">We love hearing your complaints! Or your compliments! Quack away using the form below!</p>
+        
+        <form class="contact-form" action="#" method="POST">
+            <div class="form-group">
+                <label for="name">Your Name:</label>
+                <input type="text" id="name" name="name" placeholder="Enter your name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Your Email:</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email" required>
+            </div>
+            <div class="form-group">
+                <label for="message">Your Message:</label>
+                <textarea id="message" name="message" rows="5" placeholder="Type your message here..." required></textarea>
+            </div>
+            <button type="submit" class="submit-btn">Submit</button>
+        </form>
+    </main>
+</body>
+</html>
